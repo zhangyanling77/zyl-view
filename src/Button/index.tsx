@@ -4,4 +4,9 @@ interface ButtonProps {
   type: string;
   children: any;
 }
-export default ({ type, children }: ButtonProps) => <button>{children}</button>;
+
+const Button: React.FC<ButtonProps> = ({ children }) => (
+  <button>{children}</button>
+);
+
+export default Button;
