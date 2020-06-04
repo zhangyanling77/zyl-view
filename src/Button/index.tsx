@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.less';
 
 interface ButtonProps {
   type: string;
@@ -6,7 +7,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ children }) => (
-  <button>{children}</button>
+  <button className='zyl-button'>{children}</button>
 );
 
 export default Button;
