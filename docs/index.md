@@ -9,7 +9,7 @@ toc: menu
 
 ```js
 import React from 'react';
-import { Button } from 'dumi-lib';
+import { Button } from 'zyl-view';
 
 export default () => <Button>点我吧</Button>;
 ```
