@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "dumi-lib",
+  "name": "zyl-view",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
