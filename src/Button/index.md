@@ -19,7 +19,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'dumi-lib';
+import { Button } from 'zyl-view';
 
 export default () => <Button>默认按钮</Button>;
 ```
